@@ -19,7 +19,7 @@ Post.prototype.edit = function(text) {
 
 const post1 = new Post('User', 'some text', new Date());
 console.log(post1);
-post1.edit('dolor sit');
+post1.edit('some text');
 console.log(post1);
 
 
@@ -38,7 +38,7 @@ AttachedPost.prototype.makeTextHighlighted = function() {
 const attached1 = new AttachedPost('User1', 'some text1', new Date());
 console.log(attached1);
 attached1.makeTextHighlighted();
-attached1.edit('dolor2 sit2');
+attached1.edit('some text1');
 console.log(attached1);
 
 
@@ -57,7 +57,7 @@ class Post {
 
 const post1 = new Post('User', 'some text', new Date());
 console.log(post1);
-post1.edit('dolor sit');
+post1.edit('some text');
 console.log(post1);
 
 
@@ -72,8 +72,8 @@ class AttachedPost extends Post {
     }
 }
 
-const attached1 = new AttachedPost('User1', 'some text', new Date());
+const attached1 = new AttachedPost('User1', 'some text1', new Date());
 console.log(attached1);
 attached1.makeTextHighlighted();
-attached1.edit('dolor2 sit2');
+attached1.edit('some text1');
 console.log(attached1);
