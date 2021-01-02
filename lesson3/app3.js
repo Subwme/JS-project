@@ -89,55 +89,55 @@
 // -  Получить все товары, у которых есть фотографии, можете использовать метод filter
 // - Отсортируйте товары по цене (от низкой цены к высокой), можете использовать метод sort
 
-// 'use strict'
-// const products = [
-//   {
-//     id: 3,
-//     price: 127,
-//     photos: [
-//       "1.jpg",
-//       "2.jpg",
-//     ]
-//   },
-//   {
-//     id: 5,
-//     price: 499,
-//     photos: []
-//   },
-//   {
-//     id: 10,
-//     price: 26,
-//     photos: [
-//       "3.jpg"
-//     ]
-//   },
-//   {
-//     id: 8,
-//     price: 78,
-//   },
-// ]
+'use strict'
+const products = [
+  {
+    id: 3,
+    price: 127,
+    photos: [
+      "1.jpg",
+      "2.jpg",
+    ]
+  },
+  {
+    id: 5,
+    price: 499,
+    photos: []
+  },
+  {
+    id: 10,
+    price: 26,
+    photos: [
+      "3.jpg"
+    ]
+  },
+  {
+    id: 8,
+    price: 78,
+  },
+]
 
-// const pictures = products.filter(function(images) {
-//   return 'photos' in images && images.photos.length > 0
-// } );
-// console.log(pictures);
+const pictures = products.filter(function(images) {
+  return 'photos' in images && images.photos.length > 0
+} );
+console.log(pictures);
 
 
-// const sortPrice = products.sort(function(value, value2){
-//   return value.price - value2.price;
-// });
-// console.log(sortPrice);
+const sortPrice = products.sort(function(value, value2){
+  return value.price - value2.price;
+});
+console.log(sortPrice);
 
-//Задание 5!
+// Задание 5!
 // 'use strict'
 // for (let i = 0; i <= 9; console.log(i++)) {
 //   //some code 
 //  }
 
 // Задание 6! Сделать лесенку из звезд, вывести в консоль.
-'use strict'
-for (var i=0, stars = '', numberStars = 0; i < 20; i++) {
-  stars += '*';
-  numberStars += 1;
-  console.log(stars + ' - ' + numberStars)
-  }
+// 'use strict'
+// for (var i=0, stars = '', numberStars = 0; i < 20; i++) {
+//   stars += '*';
+//   numberStars += 1;
+//   console.log(stars + ' - ' + numberStars)
+//   }
