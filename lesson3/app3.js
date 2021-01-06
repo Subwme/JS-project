@@ -135,9 +135,9 @@ console.log(sortPrice);
 //  }
 
 // Задание 6! Сделать лесенку из звезд, вывести в консоль.
-// 'use strict'
-// for (var i=0, stars = '', numberStars = 0; i < 20; i++) {
-//   stars += '*';
-//   numberStars += 1;
-//   console.log(stars + ' - ' + numberStars)
-//   }
+'use strict'
+for (var i=0, stars = '', numberStars = 0; i < 20; i++) {
+  stars += '*';
+  numberStars += 1;
+  console.log(stars + ' - ' + numberStars)
+  }
